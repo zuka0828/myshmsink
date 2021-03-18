@@ -1,0 +1,2 @@
+SHM_SIZE_MB=150
+TARGET="pc"

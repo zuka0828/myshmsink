@@ -1,4 +1,6 @@
-#!/bin/sh -e
+#!/bin/bash -e
+
+. common.sh
 
 rm -f /dev/shm/myshmpipe
-./myshmpipe $(cat SIZE)
+./myshmpipe ${SHM_SIZE_MB}000000
